@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+@import "tailwindcss";
+
+.outfit-font {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style:normal;
+}
+.custom-bg {
+  background-color: hsl(217, 54%, 11%);
+}
+.custom-card {
+  background-color: hsl(216, 50%, 16%);
+}
+.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+.title1 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.custom-text {
+  color: hsl(215, 51%, 70%);
+}
+.custom-color {
+  color: hsl(178, 100%, 50%);
+}
+.title3 {
+  color: hsl(215, 51%, 70%);
+  font-size: 18px;
+  font-weight: 400;
+}
+.custom-line{
+  color: hsl(215, 32%, 27%);
+}
+.custom-shadow{
+ box-shadow:
+    0 25px 45px rgba(0, 0, 0, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
+}
